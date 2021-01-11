@@ -1,0 +1,74 @@
+body {
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  font-family:'Arvo', serif;
+  color : white;}
+
+.conteiner , .Menu {width: 1150px;}
+
+.conteiner {
+  height: 800px;
+  padding-top: 115px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 2em auto;
+  border-radius: 20px;}
+
+.logo {
+  width: 275px;
+  display: block;
+  margin:auto;
+  margin-bottom: -1.5em;}
+
+h2 {
+  color: #00FF00;
+  text-align:center;
+  font-weight:bold;
+  font-size:38px;
+  margin-bottom:5px;}
+
+.Menu {
+  height: 50px;
+  position:static;
+  left: 50%;
+  background-color: #00FF00;
+  margin-bottom: 25px;}
+
+.MenuBottoni {
+  position: relative;
+  top: 30%;
+  left:38%;}
+
+div * {margin-bottom: 0;}
+
+span {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;}
+
+p {
+  margin-top: 5px;
+  font-size: 20px;}
+
+.Carica1 , .Carica2, .Carica3 {
+  width: 300px;
+  height: 30px;
+  position:static;
+  padding-top: 0px;
+  margin-bottom: 28px;
+  border-radius: 5px;}
+
+  .Carica1 {
+    width: 350px;
+    background-color:rgba(255, 170, 85);}
+
+  .Carica2 {
+    width: 600px;
+    background-color: hsl(120, 100%, 50%);}
+
+  .Carica3 {
+      width: 150px;
+      background-color: rgba(252,72,72);}
